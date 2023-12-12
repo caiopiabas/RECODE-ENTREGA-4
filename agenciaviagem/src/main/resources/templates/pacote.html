@@ -278,7 +278,7 @@
 						$('#pacote-' + id).remove();
 					},
 					error: function () {
-						alert('Erro ao excluir o usuario.');
+						alert("Não é possível excluir o pacote. Existem pedidos associados a este pacote.");
 					}
 				});
 			}

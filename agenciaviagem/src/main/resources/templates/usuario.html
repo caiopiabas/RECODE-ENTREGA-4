@@ -232,7 +232,7 @@
 					$('#usuario-' + usuarioId).remove();
 				},
 				error: function () {
-					alert('Erro ao excluir o usuario.');
+					alert("Não é possível excluir o usuário. Existem pedidos associados a este usuário.");
 				}
 			});
 		}
